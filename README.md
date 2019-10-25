@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A: adaptive websites load the entirity of the code at once. While it will adapt well to difference devices, it also takes longer to load.  They both technically achieve the same outcome, but responsive does so much more efficiently by only loading what you need to load base on your device.  While being harder to code, it's technically the better more desirable method. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A: Mobile first means you design the page with mobile in mind first.  You then use media queries to build tablet and desktop pages as well, if you are going adaptive/responsive.  You do this by using the min-width property.  Desktop first is the opposite. You design the desktop size page first, and use media queries for both mobile and tablet using the max-width property
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+A: pages default at text size being 16 pixels.  62.5% brings that value down to an easy 10 px. This makes the math easier and calculations for the coder happen with more ease. rem means root em, which causes the calculation to go off of the predetermined 62.5%/10pix always, instead of the relative size of the parent element text when using em.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A: preprocessing is setting a defined set of rules before the rest of the code loads, by giving specific values, which might coincide with the entire page theme, to a variable so you can more readily use the same code repeatedly while not having to remember the EXACT code.  This also allows you to change variables in one centralized place when you wish to change something, instead of having to hunt through the code to find what you need to change by hand. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+A: my favorite thing about preprcossing is, it reminds me much more of back end coding. It brings css closer to a real programming language, making it easier for me to understand it. The concept is actually quite clear to me and made several other things become much clearer. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
