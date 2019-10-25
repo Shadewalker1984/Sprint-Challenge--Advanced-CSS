@@ -160,6 +160,34 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation .spaceWalkers {
+  display: flex;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .spaceWalkers h1 {
+  font-size: 5rem;
+}
+.navigation nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navigation nav a {
+  font-size: 1.5rem;
+  margin: 2%;
+  text-decoration: none;
+  color: black;
+}
+.navigation nav a a:darken {
+  color: #23293B 50%;
+}
+.navigation nav a:hover {
+  color: #81848E;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

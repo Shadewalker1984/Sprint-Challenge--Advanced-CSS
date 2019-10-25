@@ -1,1 +1,37 @@
 // Navigation code here
+
+.navigation {
+
+    .spaceWalkers {
+        display: flex;
+        width: 100%;
+        padding-top: 2%;
+        .trueCenter();
+
+        h1 {
+            font-size: 5rem;
+        }//end navigation spaceWalkers h1
+    }//end navigation spaceWalkers
+
+    nav {
+        display: flex;
+        width: 100%;
+        .trueCenter();
+
+        a {
+            font-size: 1.5rem;
+            margin: 2%;
+            text-decoration: none;
+            color: black;
+        
+        a:darken {
+            color: @ebony-clay 50%;
+            
+        }//end nav a a:darken
+            &:hover {
+                color: @waterloo;
+
+            }//end navigation nav a hover
+        }//end navigation nav a
+    }//end navigation nav
+}//end navigation
