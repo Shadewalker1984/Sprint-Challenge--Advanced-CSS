@@ -1,8 +1,15 @@
 // Mixins Here
 
+@phone 
+
 .trueCenter () {
     justify-content: center;
     align-items: center;
+}
+
+.flipBtnColor() {
+    color: @backColor;
+    background-color: @foreColor;
 }
 
 .align (@justify, @align) {
@@ -11,5 +18,16 @@
 }
 
 .button (@foreColor, @backColor) {
+    padding: 1%;
+    font-size: 2.5rem;
+    width: 40%;
+    height: 15%;
+    border-radius: 10px;
+    .trueCenter();
+    color: @foreColor;
+    background-color: @backColor;
 
-}
+    &:hover {
+        .flipBtnColor();
+    }//end btn &:hover
+//end .button}  
