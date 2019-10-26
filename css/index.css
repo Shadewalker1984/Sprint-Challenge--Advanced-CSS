@@ -161,8 +161,11 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  opacity: 20%;
   background-color: #F6F7F8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.7;
 }
 .navigation .spaceWalkers {
   display: flex;
@@ -192,6 +195,25 @@ p {
 .navigation nav a:hover {
   color: #81848E;
 }
+form {
+  display: inline-block;
+  width: 50%;
+}
+@media (max-width: 500px) {
+  form {
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+  }
+}
+form input {
+  width: 100%;
+  margin: 5%;
+  padding: 2%;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -201,6 +223,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  margin-top: 15.5rem;
 }
 .home .intro h2 {
   padding: 15px;
